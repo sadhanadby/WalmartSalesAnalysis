@@ -90,10 +90,10 @@ The Dataset was obtained from Kaggle. The dataset has sales transactions from th
 9. Which day of the week has the best average ratings per branch?
 
 ## Revenue And Profit Calculation
-COGS = unit_price * quantity
-tax = 5% of COGS
-total_gross_sales = tax + cogs
-gross_profit = (tax + cogs) - cogs
+1. COGS = unit_price * quantity
+2. tax = 5% of COGS
+3. total_gross_sales = tax + cogs
+4. gross_profit = (tax + cogs) - cogs
 
 # Code
 Find code here [WalmartSales](https://github.com/sadhanadby/WalmartSalesAnalysis/blob/main/WalmartSales.sql)
