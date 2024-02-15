@@ -140,7 +140,7 @@ HAVING SUM(quantity) > (
 		AVG(quantity)
 	FROM WalmartSales);
     
--- 10. What is the most common product line by gender? ----
+-- 10. What is the most common product line by gender?
 SELECT 
 	gender,
     product_line,
