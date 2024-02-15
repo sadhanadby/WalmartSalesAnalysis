@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS WalmartSales (
 );
 
 -- Load csv data into database
-LOAD DATA LOCAL INFILE 'C:/Users/Sadhana Dubey_2/Downloads/WalmartSalesData.csv'
+LOAD DATA LOCAL INFILE 'WalmartSalesData.csv'
 INTO TABLE WalmartSales
 FIELDS TERMINATED BY ','
 IGNORE 1 ROWS;
